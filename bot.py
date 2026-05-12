@@ -11,7 +11,7 @@ app = Flask(__name__)
 VK_TOKEN = os.environ.get("VK_TOKEN")
 ADMIN_ID = 1076312001
 GROUP_ID = 238623910
-CONFIRMATION_CODE = "480cda08"
+CONFIRMATION_CODE = os.environ.get("CONFIRMATION_CODE")
 # ======================================
 
 DATA_FILE = "broadcast_data.json"
